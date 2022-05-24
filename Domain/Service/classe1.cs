@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Domain.Service
 {
-    public abstract class BaseModel
+    class classe1
     {
-        public long Id { get; set; }
     }
 }

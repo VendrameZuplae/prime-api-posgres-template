@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Infra.Data.Map
 {
-    public abstract class BaseModel
+    class Class1
     {
-        public long Id { get; set; }
     }
 }
