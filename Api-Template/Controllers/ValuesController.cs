@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Api_Template.Controllers
 {
@@ -11,5 +8,12 @@ namespace Api_Template.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+
+        [HttpGet]
+        [Route("/check-new-api")]
+        public bool Check()
+        {
+            return true;
+        }
     }
 }

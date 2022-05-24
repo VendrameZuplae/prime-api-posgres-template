@@ -8,5 +8,13 @@ namespace Infra.CrossCutting.IoC
 {
     public class NativeInjectorBootStrapper
     {
+
+        // Services
+
+
+        // Repo
+
+
+        //UOW
     }
 }
