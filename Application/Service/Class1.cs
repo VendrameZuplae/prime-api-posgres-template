@@ -1,13 +1,13 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Application.Service
 {
-    public abstract class BaseModel
+    class Class1
     {
-        public long Id { get; set; }
     }
 }
