@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infra.Data.Repository
+namespace Domain
 {
-    class Class1
+    interface IUnitOfWork
     {
+        
     }
 }
